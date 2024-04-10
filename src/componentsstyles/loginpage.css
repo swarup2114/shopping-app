@@ -1,0 +1,43 @@
+/* loginpage.css */
+
+.login-frm {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    background: #f4f4f4;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ .login-frm h2 ,
+ .login-frm p{
+    text-align: center;
+  }
+  
+  
+ .login-frm input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-frm button {
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.493);
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ .login-frm button:hover {
+    background-color: #45a049;
+  }
+  

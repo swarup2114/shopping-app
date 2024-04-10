@@ -1,0 +1,64 @@
+/* signuppage.css */
+/* Add this CSS to your existing "signuppage.css" file or create a new CSS file */
+
+.alert-card {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+}
+
+/* You can customize the styles based on your design preferences */
+
+.signup-frm {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    background: #f4f4f4;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ .signup-frm h2 ,
+ .signup-frm p{
+    text-align: center;
+  }
+  .error {
+    
+    color:red;
+    text-align: left !important;
+  }
+  
+ .signup-frm input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-frm button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ .signup-frm button:hover {
+    background-color: #45a049;
+  }
+
+  
